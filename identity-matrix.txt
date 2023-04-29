@@ -1,0 +1,4 @@
+function idMatrix(n) {
+const indexArr = [...Array(n).fill(0).keys()];
+ return indexArr.map(i => indexArr.map(j => i === j ? 1 : 0));
+}
